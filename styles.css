@@ -17,6 +17,23 @@ header {
     padding: 20px 0;
 }
 
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-text {
+    max-width: 60%;
+}
+
+.header-image img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
 .container {
     width: 90%;
     max-width: 1200px;
