@@ -20,17 +20,25 @@ header {
 .header-container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
 }
 
-.header-text {
-    max-width: 60%;
+.header-content {
+    margin-bottom: 20px;
+}
+
+.header-content h1 {
+    margin-bottom: 5px;
 }
 
 .header-image img {
+    border-radius: 50%;
     width: 150px;
     height: 150px;
     object-fit: cover;
+    border: 3px solid #333; /* Add a border around the image */
 }
 
 .container {
@@ -131,9 +139,4 @@ footer p {
     line-height: 1.5;
 }
 
-hr {
-    border: none;
-    height: 1px;
-    background-color: #e5e5e5;
-    margin: 40px 0;
-}
+
