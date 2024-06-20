@@ -114,3 +114,10 @@ footer p {
     color: #666;
     line-height: 1.5;
 }
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #e5e5e5;
+    margin: 40px 0;
+}
